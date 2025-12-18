@@ -357,6 +357,8 @@ span{
 .sub-frame7{
 display: flex;
 flex-wrap: wrap;
+gap:10px;
+justify-content: center;
 }
 
 .sub1-frame7{
@@ -413,7 +415,7 @@ iframe{
 }
 @media(max-width:768px){
     .sub2-frame7{
-    width: 40vw;
+    width: auto;
     
 }
 iframe{
@@ -427,10 +429,8 @@ iframe{
         height: 80vh;
     }
    iframe{
-    margin-left: 20px;
-    margin-bottom: 20px;
-    width: 380px;
-    height:500px
+    width: auto;
+    height:500px;
 }
     }
 .frame8{
